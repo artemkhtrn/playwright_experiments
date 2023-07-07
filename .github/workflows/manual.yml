@@ -21,4 +21,4 @@ jobs:
     - name: Ensure browsers are installed
       run: python -m playwright install --with-deps
     - name: Run your tests
-      run: pytest
+      run: pytest --html=Reports/pwreport.html
